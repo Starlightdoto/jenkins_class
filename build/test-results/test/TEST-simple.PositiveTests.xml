@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="simple.PositiveTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-10T09:45:50" hostname="Almass-MacBook.local" time="0.016">
+<testsuite name="simple.PositiveTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-12-10T10:28:11" hostname="Almass-MacBook.local" time="0.034">
   <properties/>
-  <testcase name="posTest1()" classname="simple.PositiveTests" time="0.001"/>
-  <testcase name="posTest2()" classname="simple.PositiveTests" time="0.009"/>
-  <testcase name="posTest3()" classname="simple.PositiveTests" time="0.002"/>
+  <testcase name="posTest1()" classname="simple.PositiveTests" time="0.006"/>
+  <testcase name="posTest2()" classname="simple.PositiveTests" time="0.006"/>
+  <testcase name="posTest3()" classname="simple.PositiveTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="simple.DisabledTests" tests="3" skipped="3" failures="0" errors="0" timestamp="2022-12-10T09:45:50" hostname="Almass-MacBook.local" time="0.02">
+<testsuite name="simple.DisabledTests" tests="3" skipped="3" failures="0" errors="0" timestamp="2022-12-10T10:28:11" hostname="Almass-MacBook.local" time="0.027">
   <properties/>
-  <testcase name="disTest1()" classname="simple.DisabledTests" time="0.001">
+  <testcase name="disTest1()" classname="simple.DisabledTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="disTest2()" classname="simple.DisabledTests" time="0.001">
+  <testcase name="disTest2()" classname="simple.DisabledTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="disTest3()" classname="simple.DisabledTests" time="0.0">
