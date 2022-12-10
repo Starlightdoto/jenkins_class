@@ -20,6 +20,7 @@ public class TestBase {
         Configuration.browserSize = "1920x1200";
         Configuration.headless = false;
         Configuration.holdBrowserOpen = false;
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
     }
 
     @BeforeEach
@@ -29,6 +30,6 @@ public class TestBase {
 
     @AfterEach
     public void addAttachments() {
-
+        
     }
 }

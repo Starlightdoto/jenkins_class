@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.FormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-10T14:30:09" hostname="Almass-MacBook.local" time="43.332">
+  <properties/>
+  <testcase name="Successful registration test" classname="tests.FormTest" time="43.332"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
