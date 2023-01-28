@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.Properties.SystemPropertiesTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-28T16:43:07" hostname="Almass-MacBook.local" time="0.251">
+  <properties/>
+  <testcase name="sayHello()" classname="tests.Properties.SystemPropertiesTests" time="0.251"/>
+  <system-out><![CDATA[Hello alex
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
