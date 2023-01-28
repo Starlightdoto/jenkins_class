@@ -1,1 +1,1 @@
-{"name":"Gradle","type":"gradle","taskName":"test","buildName":"jenkins_class","projectPath":":","projectVersion":"1.0-SNAPSHOT"}
+{"name":"Gradle","type":"gradle","taskName":"one_property_test","buildName":"jenkins_class","projectPath":":","projectVersion":"1.0-SNAPSHOT"}
