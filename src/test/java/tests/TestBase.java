@@ -8,9 +8,11 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import pages.RegistrationPage;
 
+@Tag("Smoke")
 public class TestBase {
 
     RegistrationPage regPage = new RegistrationPage();
@@ -19,11 +21,11 @@ public class TestBase {
     static void setUp() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.timeout = 10000;
-        Configuration.browserSize = "1920x1200";
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.headless = false;
         Configuration.holdBrowserOpen = false;
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-
+        Configuration.remote =  System.getProperty("remoteUrl", "https://user1:1234@selenoid.autotests.cloud") +"/wd/hub";
+        Configuration.browser = System.getProperty("browser", "chrome 100");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
