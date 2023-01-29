@@ -25,7 +25,7 @@ public class TestBase {
         Configuration.headless = false;
         Configuration.holdBrowserOpen = false;
         Configuration.remote =  System.getProperty("remoteUrl", "https://user1:1234@selenoid.autotests.cloud") +"/wd/hub";
-        Configuration.browser = System.getProperty("browser", "chrome 100");
+        Configuration.browser = System.getProperty("browser", "chrome");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
